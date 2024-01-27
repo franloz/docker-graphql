@@ -32,7 +32,7 @@ jobs:
 
     - name: Docker push Image
       run: |
-        docker push franloz/docker-graphql:0.0.2 .
+        docker push franloz/docker-graphql:0.0.2
 
     
 

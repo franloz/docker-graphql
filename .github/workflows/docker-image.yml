@@ -29,10 +29,12 @@ jobs:
     - name: Docker build Image
       run: |
         docker build -t franloz/docker-graphql:0.0.2 .
+        docker build -t franloz/docker-graphql:latest .
 
     - name: Docker push Image
       run: |
         docker push franloz/docker-graphql:0.0.2
+        docker push franloz/docker-graphql:latest
 
     
 
